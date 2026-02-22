@@ -1,15 +1,20 @@
 public class Main {
     static void main() {
-        int[] nums = {1,2,3,4,5,6,7};
+        // Rotate Numbers k times
+        // {1,2,3,4,5,6,7}, k = 3
+        // result: {5,6,7,1,2,3,4}
 
-        RotateArray.rotate(nums, 3);
-
-        for (int num : nums) {
-            System.out.println(num);
-        }
-
-//        int[] nums = {1,1,1,3,3,4,3,2,4,2};
+//        int[] nums = {1,2,3,4,5,6,7};
 //
-//        System.out.println(ContainsDouble.containsDouble(nums));
+//        RotateArray.rotate(nums, 3);
+//
+//        for (int num : nums) {
+//            System.out.println(num);
+//        }
+
+
+        int[] nums = {1,2,3};
+
+        System.out.println(ContainsDouble.containsDouble(nums));
     }
 }
